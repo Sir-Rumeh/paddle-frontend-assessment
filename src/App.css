@@ -1,3 +1,51 @@
+:root {
+	--main-color: linear-gradient(
+		to right bottom,
+		#100537,
+		#0a0c38,
+		#061238,
+		#041638,
+		#051937
+	);
+	--home-effect-1-color: linear-gradient(
+		to bottom,
+		rgba(138, 12, 130, 1) 0%,
+		rgba(125, 39, 102, 1) 6%,
+		rgba(128, 16, 111, 1) 25%,
+		rgba(16, 5, 56, 1) 100%
+	);
+	--home-effect-2-color: linear-gradient(
+		to bottom,
+		rgba(15, 3, 102, 1) 0%,
+		rgba(16, 6, 110, 1) 6%,
+		rgba(14, 4, 48, 1) 100%
+	);
+	--home-effect-3-color: linear-gradient(
+		to bottom,
+		rgba(153, 89, 11, 1) 0%,
+		rgba(153, 89, 11, 1) 39%,
+		rgba(112, 62, 0, 1) 70%,
+		rgba(69, 39, 3, 1) 100%
+	);
+	--home-effect-4-color: linear-gradient(
+		to bottom,
+		rgba(153, 89, 11, 1) 0%,
+		rgba(153, 89, 11, 1) 39%,
+		rgba(112, 62, 0, 1) 70%,
+		rgba(69, 39, 3, 1) 100%
+	);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -10,4 +58,69 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.app {
+	/* background-image: var(--main-color); */
+	min-height: 100%;
+}
+
+.home {
+	background-image: var(--main-color);
+	color: white;
+	display: flex;
+	overflow-y: hidden;
+	height: 60rem;
+}
+
+.home .home-effect-1 {
+	position: absolute;
+	top: 11rem;
+	left: 10rem;
+	width: 8rem;
+	height: 8.4rem;
+	border-radius: 50%;
+	background-image: var(--home-effect-1-color);
+	border: none;
+}
+.home .home-effect-2 {
+	position: absolute;
+	top: 20rem;
+	right: 18rem;
+	width: 5.5rem;
+	height: 5.8rem;
+	border-radius: 50%;
+	background-image: var(--home-effect-2-color);
+	border: none;
+}
+.home .home-effect-3 {
+	position: absolute;
+	top: 50rem;
+	left: 27rem;
+	width: 9rem;
+	height: 9.3rem;
+	border-radius: 50%;
+	background-image: var(--home-effect-3-color);
+	z-index: 0;
+	border: none;
+}
+
+.home .home-effect-4 {
+	position: relative;
+	top: 46.5rem;
+	width: 85rem;
+	margin: 0 auto;
+	aspect-ratio: 1;
+	border-radius: 50%;
+
+	border: 5px solid white;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(13px);
+	-webkit-backdrop-filter: blur(13px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	opacity: 100%;
 }

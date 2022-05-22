@@ -1,0 +1,46 @@
+.contact-form {
+	position: absolute;
+	background: none;
+	top: 98%;
+	left: 50%;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	color: gainsboro;
+	/* background-color: red; */
+	/* padding: 1rem 5rem; */
+}
+
+.center {
+	transform: translate(-50%, -50%);
+}
+
+.contact-form .first-name {
+	margin-right: 0;
+	width: 32%;
+}
+
+.contact-form .last-name {
+	margin-left: 0;
+	width: 32%;
+}
+
+.contact-form .first-name .input-field,
+.contact-form .last-name .input-field {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #b064a1;
+	padding-bottom: 0.7rem;
+}
+.contact-form .first-name input:focus,
+.contact-form .last-name .input-field:focus {
+	outline: none;
+	color: gainsboro;
+}
+
+.form-body .email .center {
+	position: absolute;
+	top: 108%;
+}

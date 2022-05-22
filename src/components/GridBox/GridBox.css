@@ -1,0 +1,47 @@
+.grid-box {
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+		rgba(17, 17, 26, 0.1) 0px 8px 24px,
+		rgba(17, 17, 26, 0.1) 0px 16px 56px;
+	padding: 1.5rem;
+	position: relative;
+	padding-bottom: 3rem;
+}
+.grid-box img {
+	margin-bottom: 1.3rem;
+}
+.grid-box small {
+	margin-left: 1rem;
+	opacity: 50%;
+}
+.grid-box h3 {
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	max-width: 21rem;
+}
+.grid-box p {
+	letter-spacing: 1px;
+	line-height: 1.9rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+.grid-box span {
+	position: absolute;
+	text-transform: uppercase;
+	color: rgba(203, 96, 179, 1);
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 2rem;
+	margin-left: 5.3rem;
+}
+.grid-box span::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateX(-130%);
+	background-color: rgba(203, 96, 179, 1);
+	height: 2px;
+	width: 4rem;
+}
