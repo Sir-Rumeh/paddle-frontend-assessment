@@ -7,6 +7,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import ComingSoon from "./pages/comingsoon";
 import About from "./pages/aboutus";
 import Blog from "./pages/blog";
+import GitHub from "./pages/github";
 
 // Routing
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -23,6 +24,9 @@ function App() {
 					<Route path="/:blog" element={<Blog />} />
 				</Routes>
 			</div>
+			<Routes>
+				<Route path="/github" element={<GitHub />} />
+			</Routes>
 		</BrowserRouter>
 
 		// <div className="app">

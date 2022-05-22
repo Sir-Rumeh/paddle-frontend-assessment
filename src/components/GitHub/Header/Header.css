@@ -1,0 +1,15 @@
+.github-header {
+	background-color: #161b22;
+	color: #f0f6ee;
+	height: 5rem;
+	position: -webkit-sticky;
+	padding: 1.5rem;
+	padding-left: 18.5rem;
+}
+
+.github-header a .home-icon {
+	z-index: 9999;
+	width: 3rem;
+	cursor: pointer;
+	color: #f0f6ee;
+}

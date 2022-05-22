@@ -1,0 +1,14 @@
+.load-more-button {
+	width: 12rem;
+	height: 2.8rem;
+	border-radius: 1.5rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+.load-more-button button {
+	background-color: none;
+	width: 100%;
+	height: 100%;
+	border-radius: 1.5rem;
+	cursor: pointer;
+}

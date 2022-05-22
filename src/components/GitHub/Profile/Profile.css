@@ -1,0 +1,47 @@
+.github-profile {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1.7rem;
+	padding-top: 1.6rem;
+	padding-right: 2rem;
+	margin-left: 19rem;
+	/* border-bottom: 1px solid grey; */
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	margin-bottom: 1rem;
+	margin-right: 21rem;
+}
+.github-profile .avatar-container {
+	height: 10rem;
+	margin-right: 2rem;
+}
+.github-profile .avatar-container img {
+	width: 10rem;
+}
+.github-profile .profile-info {
+	width: 60rem;
+	padding-top: 0;
+}
+.profile-info p {
+	letter-spacing: 1px;
+	font-size: 1rem;
+}
+.profile-info .repo-description {
+	margin-top: 2%;
+	overflow-y: scroll;
+}
+
+.github-profile .activity-bar {
+	display: flex;
+	transform: translateY(125%);
+}
+.github-profile .stars,
+.github-profile .issues {
+	border: 2px solid black;
+	margin-right: 1rem;
+	padding: 0 1rem;
+}
+
+.in-issues,
+.in-stars {
+	margin-right: 0.5rem;
+}
