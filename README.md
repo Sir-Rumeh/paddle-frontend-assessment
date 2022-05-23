@@ -1,7 +1,14 @@
 # Gratis-Digital-paddle-frontend-assessment
 
-[Live Site](https://)
+The libraries used in this pro are
 
+1. React Router Library for routing.
+1. Axios Library for fetching API data.
+
+If I had more time and this application was not a timed-test-project,
+I would lve to improve on the user interaction in a way that mmakes users enjoy spending more time on the website.
+
+[Live Site](https://warm-licorice-ea3c65.netlify.app)
 ![Screenshot (43)](https://user-images.githubusercontent.com/95687544/169798589-64ea84f8-009f-41fa-a2e4-dd0b4783de57.png)
 ![Screenshot (44)](https://user-images.githubusercontent.com/95687544/169798624-c12f02bc-d7fa-48a5-b46d-ed935ef937d4.png)
 ![Screenshot (45)](https://user-images.githubusercontent.com/95687544/169798661-faf0e51e-a161-488e-9c9e-ab06baadb436.png)
