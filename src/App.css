@@ -1,12 +1,6 @@
 :root {
-	--main-color: linear-gradient(
-		to right bottom,
-		#100537,
-		#0a0c38,
-		#061238,
-		#041638,
-		#051937
-	);
+	--main-color: #1e0040;
+	/* --main-color: #1e0040; */
 	--home-effect-1-color: linear-gradient(
 		to bottom,
 		rgba(138, 12, 130, 1) 0%,
@@ -79,7 +73,7 @@ html {
 }
 
 .home {
-	background-image: var(--main-color);
+	background-color: #1e0040;
 	color: white;
 	display: flex;
 	overflow-y: hidden;
@@ -108,7 +102,7 @@ html {
 }
 .home .home-effect-3 {
 	position: absolute;
-	top: 50rem;
+	top: 52rem;
 	left: 27rem;
 	width: 9rem;
 	height: 9.3rem;

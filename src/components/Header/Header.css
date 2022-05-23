@@ -2,14 +2,7 @@
 .header {
 	display: flex;
 	height: 8.5rem;
-	background-image: linear-gradient(
-		to right bottom,
-		#100537,
-		#0a0c38,
-		#061238,
-		#041638,
-		#051937
-	);
+	background-color: #1e0040;
 }
 
 /* NAVBAR */
