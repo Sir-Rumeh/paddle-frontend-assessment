@@ -2,6 +2,7 @@ import "./App.css";
 // import components
 import Header from "./components/Header/Header";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Footer from "./components/Footer/Footer";
 
 // import pages/routes
 import ComingSoon from "./pages/comingsoon";
@@ -23,6 +24,7 @@ function App() {
 					<Route path="/aboutus" element={<About />} />
 					<Route path="/:blog" element={<Blog />} />
 				</Routes>
+				<Footer />
 			</div>
 			<Routes>
 				<Route path="/github" element={<GitHub />} />

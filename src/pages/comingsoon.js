@@ -10,7 +10,7 @@ function ComingSoon() {
 			<div className="home-effect-4"></div>
 			{/* <div className="home-effect-5"></div> */}
 			<HeroSection />
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
