@@ -45,3 +45,54 @@
 .copyright {
 	transform: translateX(5%);
 }
+
+@media (max-width: 768px) {
+	.footer {
+		position: relative;
+		width: 100%;
+		height: 0rem;
+		display: flex;
+		/* flex-wrap: wrap; */
+		justify-content: center;
+		color: rgba(255, 255, 255, 0.4);
+	}
+
+	.footer-container {
+		position: absolute;
+		bottom: 10%;
+
+		padding: 3rem;
+		padding-left: 0;
+		padding-bottom: 1rem;
+		width: 100%;
+	}
+
+	.add-margin-bottom {
+		margin-bottom: 1rem;
+	}
+
+	.social-icons {
+		width: 3rem;
+	}
+	.absolute {
+		/* bottom: -20rem; */
+	}
+
+	.company-details {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.social-media {
+		display: flex;
+		justify-content: center;
+		color: rgba(255, 255, 255, 0.4);
+	}
+	.social-media .social-youtube {
+		color: white;
+	}
+
+	.copyright {
+		transform: translateX(5%);
+	}
+}

@@ -125,7 +125,6 @@ html {
 	margin: 0 auto;
 	aspect-ratio: 1;
 	border-radius: 50%;
-
 	border: 5px solid white;
 	background: rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(13px);
@@ -140,9 +139,12 @@ html {
 	}
 
 	.home .home-effect-4 {
-		width: 20rem;
-		height: 11rem;
-		transform: translateY(90%);
+		width: 25rem;
+		height: 19rem;
+		/* transform: translateY(5%);
+		transform: translateX(-5%); */
+		top: 47.5rem;
+		left: -1rem;
 	}
 }
 
