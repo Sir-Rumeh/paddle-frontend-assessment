@@ -1,3 +1,18 @@
+# Gratis-Digital-paddle-frontend-assessment
+
+[Live Site](https://)
+
+![Screenshot (43)](https://user-images.githubusercontent.com/95687544/169798589-64ea84f8-009f-41fa-a2e4-dd0b4783de57.png)
+![Screenshot (44)](https://user-images.githubusercontent.com/95687544/169798624-c12f02bc-d7fa-48a5-b46d-ed935ef937d4.png)
+![Screenshot (45)](https://user-images.githubusercontent.com/95687544/169798661-faf0e51e-a161-488e-9c9e-ab06baadb436.png)
+![Screenshot (47)](https://user-images.githubusercontent.com/95687544/169798671-0344e629-230a-4976-91f2-c2bd3dbd4d63.png)
+![Screenshot (51)](https://user-images.githubusercontent.com/95687544/169798906-20a88170-52eb-4f84-b976-6ab2e0a277b7.png)
+![Screenshot (52)](https://user-images.githubusercontent.com/95687544/169798832-acb54c60-4aab-4244-b7f1-e93dfc84ba05.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/95687544/169798929-cdad6919-5c6d-47a5-836b-9e8b7e0d3133.png)
+![Screenshot (54)](https://user-images.githubusercontent.com/95687544/169798968-3087cc4f-b72e-44b4-878e-7bdd2b8aeec1.png)
+![Screenshot (56)](https://user-images.githubusercontent.com/95687544/169798985-0b1a82a0-ebfd-40cb-b78a-b09e58c34987.png)
+![Screenshot (55)](https://user-images.githubusercontent.com/95687544/169799013-e8a9e1b2-2e3f-4b48-a752-9432997572a3.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

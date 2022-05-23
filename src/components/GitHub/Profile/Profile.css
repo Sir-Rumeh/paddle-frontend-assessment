@@ -45,3 +45,14 @@
 .in-stars {
 	margin-right: 0.5rem;
 }
+
+@media (max-width: 768px) {
+	.github-profile {
+		display: block;
+		margin-left: 0rem;
+
+		margin-bottom: 5rem;
+		max-width: 100%;
+		padding: 0rem 2rem;
+	}
+}

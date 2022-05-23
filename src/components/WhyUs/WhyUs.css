@@ -5,6 +5,27 @@
 	background-color: rgba(35, 15, 59, 1);
 }
 
+@media (max-width: 768px) {
+	.container {
+		margin-top: -20%;
+		z-index: 9999;
+	}
+	.container .good-value {
+		color: white;
+		font-size: 1rem;
+		letter-spacing: 2px;
+		/* transform: translateY(-50%); */
+		transform: translateX(-6.5%);
+		max-width: 100%;
+	}
+	.container .good-value .metricks {
+		position: absolute;
+		margin-top: -8rem;
+		margin-left: -12rem;
+		font-size: 1.9rem;
+		padding-right: 2.5rem;
+	}
+}
 .container .good-value {
 	height: 30rem;
 	padding: 11rem;
@@ -20,6 +41,12 @@
 .container .why-us-wrapper {
 	display: flex;
 }
+@media (max-width: 768px) {
+	.container .why-us-wrapper {
+		display: block;
+	}
+}
+
 .border-top {
 	border-top: 1px solid rgba(0, 0, 0, 0.136);
 }
@@ -35,6 +62,21 @@
 	padding-top: 2rem;
 }
 
+@media (max-width: 768px) {
+	.insight-why-us {
+		padding-left: 0rem;
+		min-width: 100%;
+		min-height: 71vh;
+	}
+
+	.why {
+		width: 30rem;
+		min-height: 20rem;
+		transform: translateX(20%);
+		/* overflow-y: scroll; */
+	}
+}
+
 .container .why-us-wrapper .insight-growing-with-you {
 	padding-left: 11rem;
 	padding-top: 5rem;
@@ -42,6 +84,13 @@
 }
 .container .why-us-wrapper .insight-growing-with-you .growing-with-you {
 	position: relative;
+}
+
+@media (max-width: 768px) {
+	.growing-with-you {
+		position: absolute;
+		right: 50%;
+	}
 }
 
 .container .why-us-wrapper .question-header {
@@ -89,6 +138,17 @@
 	margin-left: -0.8rem;
 }
 
+@media (max-width: 768px) {
+	.why {
+		transform: translateX(-100%);
+		padding-right: 0rem;
+		margin-top: 3rem;
+		margin-left: 100%;
+		padding: 1rem 1rem;
+		padding-left: 6rem;
+	}
+}
+
 .why h4 {
 	font-weight: lighter;
 	letter-spacing: 3px;
@@ -134,6 +194,26 @@
 }
 .insight-growing-with-you .growing-with-you-article .grow-down {
 	margin-top: 4.5rem;
+}
+
+@media (max-width: 768px) {
+	.growing-with-you-article {
+		background-color: rgba(35, 15, 59, 1);
+		min-height: 60rem;
+		padding-top: 2rem;
+		padding-left: 0;
+	}
+	.grow-down {
+		margin-left: -40%;
+		padding: 2rem;
+		padding-left: 3rem;
+	}
+
+	.our-team {
+		margin-left: -40%;
+		padding: 2rem;
+		padding-left: 3rem;
+	}
 }
 .insight-growing-with-you h4 {
 	font-weight: lighter;

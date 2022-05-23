@@ -3,7 +3,7 @@ import "./Button.css";
 
 function Button({ buttonFunction, buttonStyle, buttonText }) {
 	return (
-		<div>
+		<div className="load-more-button">
 			<button
 				onClick={buttonFunction}
 				className="contact-us"

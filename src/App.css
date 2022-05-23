@@ -64,6 +64,15 @@ html {
 	scroll-behavior: smooth;
 }
 
+@media (max-width: 768px) {
+	.html {
+		overflow-x: hidden;
+	}
+
+	.blog-container {
+	}
+}
+
 .app {
 	/* background-image: var(--main-color); */
 	min-height: 100%;
@@ -123,6 +132,18 @@ html {
 	-webkit-backdrop-filter: blur(13px);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	opacity: 100%;
+}
+
+@media (max-width: 768px) {
+	.home .home-effect-3 {
+		display: none;
+	}
+
+	.home .home-effect-4 {
+		width: 20rem;
+		height: 11rem;
+		transform: translateY(90%);
+	}
 }
 
 .github {
@@ -186,4 +207,7 @@ html {
 		transform: rotate(360deg);
 		border-top: 5px solid pink;
 	}
+}
+
+@media (max-width: 768px) {
 }

@@ -7,10 +7,10 @@ function WhyUs() {
 	return (
 		<div className="container">
 			<div className="good-value">
-				<div>
+				<h6 className="metricks">
 					Metricks was developed because just like you, we needed
 					a product that could give us a <span>good value.</span>
-				</div>
+				</h6>
 			</div>
 			<div className="why-us-wrapper border-top">
 				<div className="insight-why-us">
@@ -46,7 +46,7 @@ function WhyUs() {
 								dashboard.
 							</h4>
 							<br />
-							<h4>
+							<h4 className="our-team">
 								Our team of experts ore constantly
 								brainstorming, testing ond developing
 								new solutions with only one mung in mind

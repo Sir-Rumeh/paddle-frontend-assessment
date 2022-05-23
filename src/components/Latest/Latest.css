@@ -8,6 +8,35 @@
 	margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+	.latest {
+		display: block;
+		min-width: 40rem;
+		margin-left: -28%;
+		padding: 2rem 9rem;
+	}
+
+	.latest-highlight {
+		min-width: 100%;
+	}
+	.latest-highlight p {
+		margin-bottom: 3rem;
+	}
+	.latest .search-icon {
+		max-width: 100%;
+	}
+	.latest .search-form {
+		position: relative;
+		max-width: 100%;
+	}
+	.latest .search-icon-container {
+		position: relative;
+	}
+	.search-form-container {
+		max-width: 100%;
+	}
+}
+
 .latest-highlight {
 	max-width: 50%;
 }

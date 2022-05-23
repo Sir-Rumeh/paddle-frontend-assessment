@@ -7,6 +7,14 @@
 	margin-top: 9rem;
 }
 
+@media (max-width: 768px) {
+	.effect {
+		min-width: 100%;
+		margin-left: -115%;
+		margin-top: -10%;
+	}
+}
+
 .effect-dot {
 	background-color: white;
 	width: 5px;

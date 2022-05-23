@@ -47,6 +47,34 @@
 	padding-right: 7rem;
 	background-color: #230f3b;
 }
+
+@media (max-width: 768px) {
+	.about-us {
+		display: block;
+	}
+	.about-us .right {
+		display: none;
+	}
+	.about-us .left {
+		width: 100%;
+	}
+	.about-us .title {
+		transform: translateY(-600%);
+	}
+	.about-us .heading {
+		position: absolute;
+		top: 38%;
+		padding: 0 0rem;
+		padding: 0 4rem;
+
+		transform: translateX(-40%);
+		font-size: 3.9rem;
+		/* max-width: 40rem; */
+	}
+	.about-us .description {
+		display: none;
+	}
+}
 .about-us .right .about-us-efffect-2 {
 	position: absolute;
 	top: 18.7rem;

@@ -13,3 +13,13 @@
 	cursor: pointer;
 	color: #f0f6ee;
 }
+
+@media (max-width: 768px) {
+	.github-header {
+		max-width: 100%;
+	}
+
+	.github-header a .home-icon {
+		margin-left: -130%;
+	}
+}

@@ -104,6 +104,7 @@
 	background-color: #260057;
 	border: none;
 }
+
 .contact-us-page-component
 	.contact-us-container
 	.contact-us-page-form
@@ -114,6 +115,30 @@
 	padding-left: 3.2rem;
 	padding-right: 9rem;
 	margin-top: 3.5rem;
+}
+
+@media (max-width: 768px) {
+	.contact-us-page-component .contact-us-container .blur {
+		display: none;
+	}
+	.contact-us-container .contact-us-page-form {
+		min-width: 100%;
+		padding-left: 2rem;
+	}
+	.back-to-home-support-button {
+		transform: translateX(-30%);
+	}
+	.title-wrapper {
+		margin-left: 0%;
+	}
+	.overall-form {
+		padding-left: 0rem;
+		padding-right: 0rem;
+		transform: translateX(-16%);
+	}
+	.form-field {
+		min-width: 21rem;
+	}
 }
 .contact-us-page-effect {
 	position: absolute;
@@ -153,6 +178,7 @@
 }
 .form-field .form-label input {
 	padding-left: 2rem;
+	z-index: 100;
 }
 
 .form-field .option-field {

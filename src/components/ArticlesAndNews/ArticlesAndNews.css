@@ -3,6 +3,20 @@
 	background-color: rgba(35, 15, 59, 0.9);
 }
 
+@media (max-width: 768px) {
+	.articles-and-news {
+		padding-bottom: 4rem;
+	}
+
+	.articles {
+		display: block;
+	}
+
+	.articles-efffect-1 {
+		margin-top: 0%;
+	}
+}
+
 .articles {
 	position: relative;
 	width: 100%;

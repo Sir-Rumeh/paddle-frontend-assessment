@@ -4,6 +4,31 @@
 	height: 27rem;
 	margin-top: 5.9rem;
 }
+
+@media (max-width: 768px) {
+	.got-a-question-container {
+		max-width: 100%;
+		margin-top: 0rem;
+		max-height: 0rem;
+		/* display: none; */
+	}
+	.got-a-question-article {
+		min-height: 38rem;
+		padding-top: 5rem;
+	}
+
+	.got-a-question-container .got-a-question {
+		margin-top: 3rem;
+	}
+	.another-effect {
+		position: absolute;
+		margin-top: 25rem;
+	}
+
+	.got-a-question-container .overlay {
+		position: absolute;
+	}
+}
 .got-a-question-container .got-a-question {
 	padding-bottom: 4rem;
 }
@@ -23,8 +48,18 @@
 		rgba(5, 25, 61, 0.6) 70%,
 		rgba(5, 1, 61, 1) 100%
 	);
-	z-index: 999;
+	/* z-index: 999; */
 }
+
+@media (max-width: 768px) {
+	.another-effect {
+		height: 11.5rem;
+		top: 140%;
+		right: 13%;
+		margin-bottom: 2rem;
+	}
+}
+
 .got-a-question-container .overlay {
 	position: absolute;
 	top: 12%;
@@ -47,6 +82,12 @@
 .how-it-works {
 	width: 60rem;
 }
+
+@media (max-width: 768px) {
+	.how-it-works {
+		max-width: 310px;
+	}
+}
 .got-a-question-article {
 	position: absolute;
 	top: 20%;
@@ -58,6 +99,17 @@
 	padding-right: 32rem;
 	background-color: none;
 	margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+	.got-a-question-article {
+		top: 88%;
+		padding-top: 2rem;
+		padding-left: 2rem;
+		padding-right: 0;
+		max-width: 100%;
+		background-color: rgba(16, 5, 55, 1);
+	}
 }
 .got-a-question-article h1 {
 	font-weight: 600;
