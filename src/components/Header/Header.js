@@ -16,10 +16,19 @@ function Header() {
 	var callOne = true;
 
 	function showContactUsPage() {
+		const namesForm = document.querySelector(".names-form");
+		const emailUp = document.querySelector(".email");
+
 		const contactUsPage = document.querySelector(
 			".contact-us-page-component"
 		);
 		contactUsPage.classList.toggle("show-contact-us-page");
+		if (namesForm.classList.contains("vanish")) {
+			return;
+		} else {
+			namesForm.classList.add("vanish");
+			emailUp.classList.add("translate-up");
+		}
 	}
 
 	function toggleMuenu() {

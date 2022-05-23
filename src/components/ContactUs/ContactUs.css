@@ -10,6 +10,16 @@
 
 	/* z-index: 111;
 	visibility: visible; */
+	transition: all 2s linear;
+	-webkit-animation: vanish 2s linear;
+	animation: vanish 2s linear;
+}
+
+@-webkit-keyframes slowLoad {
+	100% {
+		opacity: 100%;
+		transition: all 1s linear;
+	}
 }
 
 .show-contact-us-page {

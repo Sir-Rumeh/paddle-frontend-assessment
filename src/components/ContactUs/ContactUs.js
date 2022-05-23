@@ -3,10 +3,19 @@ import "./ContactUs.css";
 
 function ContactUs() {
 	function hideContactUsPage() {
+		const namesForm = document.querySelector(".names-form");
+		const emailUp = document.querySelector(".email");
+
 		const shownContactUsPage = document.querySelector(
 			".contact-us-page-component"
 		);
 		shownContactUsPage.classList.toggle("show-contact-us-page");
+		if (!namesForm.classList.contains("vanish")) {
+			return;
+		} else {
+			namesForm.classList.remove("vanish");
+			emailUp.classList.remove("translate-up");
+		}
 	}
 
 	return (

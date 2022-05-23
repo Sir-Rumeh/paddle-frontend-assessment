@@ -1,7 +1,12 @@
 .form-body {
 	margin-top: 3rem;
+	background-color: green;
 }
 
+.names-form {
+	overflow-y: hidden;
+	height: 100%;
+}
 .contact-form {
 	position: absolute;
 	background: none;
@@ -14,19 +19,39 @@
 	align-items: center;
 	width: 60%;
 	color: gainsboro;
-	/* background-color: red; */
+	transition: all 2s linear;
+	margin-top: -0rem;
 	/* padding: 1rem 5rem; */
 }
 
 @media (max-width: 768px) {
+	.form-body {
+		margin-top: 5rem;
+	}
 	.contact-form {
 		display: flex;
 		flex-wrap: wrap;
-		background-color: red;
 	}
 
 	.mobile-width {
 		min-width: 100%;
+	}
+
+	.first-name {
+		margin-bottom: 2rem;
+	}
+	.email {
+		margin-top: -10%;
+		min-width: 100%;
+	}
+	.email .subscribe {
+		max-width: 30%;
+	}
+	.email .subscribe h3 {
+		font-size: 0.7rem;
+	}
+	.email input {
+		padding-left: 0.8rem;
 	}
 }
 
@@ -34,12 +59,27 @@
 	transform: translate(-50%, -50%);
 }
 
-.contact-form .first-name {
+/* MDAIA QUERY FOR DESKTOP */
+@media (min-width: 768px) {
+	.names-form {
+		width: 100%;
+	}
+
+	.first-name {
+		padding-right: 5rem;
+	}
+
+	.last-name {
+	}
+}
+
+/* MEDIA QUERY FOR DESKTOP */
+.first-name {
 	margin-right: 0;
 	width: 50%;
 }
 
-.contact-form .last-name {
+.last-name {
 	margin-left: 0;
 	width: 50%;
 }
@@ -85,4 +125,32 @@
 .form-body .email .center {
 	position: absolute;
 	top: 108%;
+}
+
+/* FOR PAGE EFFECT */
+.names-form {
+	/* background-color: red; */
+}
+.vanish {
+	-webkit-animation: vanish 2s linear;
+	animation: vanish 2s linear;
+	height: 0;
+	transition: all 1s linear;
+}
+
+.translate-up {
+	margin-top: -8.5rem;
+	transition: all 1s linear;
+}
+
+@-webkit-keyframes vanish {
+	0% {
+		opacity: 100%;
+		transition: all 1s linear;
+	}
+
+	100% {
+		opacity: 0%;
+		transition: all 1s linear;
+	}
 }
