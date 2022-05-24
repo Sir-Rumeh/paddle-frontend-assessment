@@ -10,7 +10,7 @@ To navigate to the gituhb page, type in github after the "/" symbol in the url
 If I had more time and this application was not a timed-test-project,
 I would lve to improve on the user interaction in a way that mmakes users enjoy spending more time on the website.
 
-[Live Site](https://warm-licorice-ea3c65.netlify.app)
+[Live Site Here](https://warm-licorice-ea3c65.netlify.app)
 
 To create a production build version, do "npm run build".
 
