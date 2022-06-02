@@ -1,5 +1,7 @@
 # Gratis-Digital-paddle-frontend-assessment
 
+This is my solution of a timed frontend assessment test organized by Gratis Digital.
+
 The libraries used in this pro are
 
 1. React Router Library for routing.
