@@ -26,6 +26,7 @@ function App() {
 			</div>
 			<Routes>
 				<Route path="/github" element={<GitHub />} />
+				<h1>handling routes</h1>
 			</Routes>
 		</BrowserRouter>
 
