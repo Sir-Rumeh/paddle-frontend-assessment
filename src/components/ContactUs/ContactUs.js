@@ -10,12 +10,12 @@ function ContactUs() {
 			".contact-us-page-component"
 		);
 		shownContactUsPage.classList.toggle("show-contact-us-page");
-		if (!namesForm.classList.contains("vanish")) {
-			return;
-		} else {
-			namesForm.classList.remove("vanish");
-			emailUp.classList.remove("translate-up");
-		}
+		// if (!namesForm.classList.contains("vanish")) {
+		// 	return;
+		// } else {
+		// 	namesForm.classList.remove("vanish");
+		// 	emailUp.classList.remove("translate-up");
+		// }
 	}
 
 	return (
