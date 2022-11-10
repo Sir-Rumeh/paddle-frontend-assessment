@@ -12,9 +12,9 @@ function Profile({
 }) {
 	return (
 		<div className="github-profile">
-			{/* <div className="avatar-container">
+			<div className="avatar-container">
 				<img src={ownerAvatar} alt="avatar" />
-			</div> */}
+			</div>
 			<div className="profile-info">
 				<h2>{repositoryName}</h2>
 				{/* <p className="repo-description">{repositoryDescription}</p> */}
