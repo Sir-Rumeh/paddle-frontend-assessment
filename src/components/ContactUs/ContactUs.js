@@ -3,8 +3,8 @@ import "./ContactUs.css";
 
 function ContactUs() {
 	function hideContactUsPage() {
-		const namesForm = document.querySelector(".names-form");
-		const emailUp = document.querySelector(".email");
+		// const namesForm = document.querySelector(".names-form");
+		// const emailUp = document.querySelector(".email");
 
 		const shownContactUsPage = document.querySelector(
 			".contact-us-page-component"
