@@ -27,9 +27,9 @@ function Profile({
 					</div>
 					<div className="issues">
 						<span className="in-issues">Issues:</span>
-						<span>
+						{/* <span>
 							{Math.round((issuesCount / 1000) * 10) / 10}k
-						</span>
+						</span> */}
 					</div>
 					<p className="time-interval">
 						{`Submitted ${time} ago by ${ownerName}`}
