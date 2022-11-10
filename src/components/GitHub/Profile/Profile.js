@@ -17,7 +17,7 @@ function Profile({
 			</div>
 			<div className="profile-info">
 				<h2>{repositoryName}</h2>
-				{/* <p className="repo-description">{repositoryDescription}</p> */}
+				<p className="repo-description">{repositoryDescription}</p>
 				<div className="activity-bar">
 					<div className="stars">
 						<span className="in-stars">Stars:</span>
