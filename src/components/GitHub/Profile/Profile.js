@@ -21,9 +21,9 @@ function Profile({
 				<div className="activity-bar">
 					<div className="stars">
 						<span className="in-stars">Stars:</span>
-						{/* <span>
+						<span>
 							{Math.round((starsCount / 1000) * 10) / 10}k
-						</span> */}
+						</span>
 					</div>
 					<div className="issues">
 						<span className="in-issues">Issues:</span>
